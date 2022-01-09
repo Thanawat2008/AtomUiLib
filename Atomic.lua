@@ -247,7 +247,7 @@ function tap:addtap(text)
     ScolPage.BorderSizePixel = 0
     ScolPage.Size = UDim2.new(0, 395, 0, 324)
     ScolPage.ScrollBarThickness = 3
-    ScolPage.ScrollBarImageColor3 =  Color3.fromRGB(255, 0, 125)
+    ScolPage.ScrollBarImageColor3 =  Color3.fromRGB(0, 255, 255)
 
     MainPage.Name = "MainPage"
     MainPage.Parent = ScolPage
@@ -1499,7 +1499,7 @@ function ems:Ti(text)
     lineframe3.Size = UDim2.new(0, 130, 0, 20)
     lineframe3.Font = Enum.Font.GothamSemibold
     lineframe3.Text = tostring(text)
-    lineframe3.TextColor3 = Color3.fromRGB(255, 100, 150)
+    lineframe3.TextColor3 = Color3.fromRGB(0, 255, 255)
     lineframe3.TextSize = 12.000
 end
 
@@ -1533,3 +1533,5 @@ end
     return tap
 end
 return create
+
+fromRGB
