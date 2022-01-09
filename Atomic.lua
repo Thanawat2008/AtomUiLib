@@ -108,7 +108,7 @@ function create:Win()
     Logo.BorderColor3 = Color3.fromRGB(27, 42, 53)
     Logo.BorderSizePixel = 0
     Logo.Size = UDim2.new(0, 56, 0, 56)
-    Logo.Image = "http://www.roblox.com/asset/?id=8496977424"
+    Logo.Image = "http://www.roblox.com/asset/?id=8497049935"
     
     local PageTap = Instance.new("Frame")
     local UIGradient_PageTap = Instance.new("UIGradient")
@@ -429,7 +429,7 @@ function ems:Button(text,callback)
 
     TextLabel_emsTextButton.Parent = emsTextButton
     TextLabel_emsTextButton.Name = "TextLabel_emsTextButton"
-    TextLabel_emsTextButton.BackgroundColor3 = Color3.fromRGB(255, 0, 95)
+    TextLabel_emsTextButton.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
     TextLabel_emsTextButton.AnchorPoint = Vector2.new(0.5, 0.5)
     TextLabel_emsTextButton.Position = UDim2.new(0.5, 0, 0.5, 0)
     TextLabel_emsTextButton.Size = UDim2.new(0, 0, 0, 0)
@@ -479,7 +479,7 @@ function ems:Button(text,callback)
             TweenService:Create(
                 emsTextButton,
                 TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-                {BackgroundColor3 =  Color3.fromRGB(255, 0, 95)} -- UDim2.new(0, 128, 0, 25)
+                {BackgroundColor3 =  Color3.fromRGB(0, 255, 255)} -- UDim2.new(0, 128, 0, 25)
             ):Play()
     end)
 end
